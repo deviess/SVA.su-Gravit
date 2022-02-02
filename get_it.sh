@@ -1,5 +1,5 @@
 #!/bin/sh
-git clone https://github.com/GravitLauncher/Launcher.git
+git clone https://github.com/AgeraFly/SVA.su-Gravit.git
 cd Launcher
 sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 git submodule sync
